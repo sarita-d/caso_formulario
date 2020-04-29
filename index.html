@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caso Formulario</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Caso Formulario</h1>
+    <hr>
+    <br>
+    <section>
+        <form action="">
+            <fieldset>
+                <h2>Informacion sobre producto</h2><br>
+                <legend>Datos del contacto</legend>
+                <label for="a">Nombres y apellidos</label><br>
+                <input type="text" name="nombre" class="cajita" placeholder="Nombres y apellidos"><br>
+                <label for="a">Descripcion</label><br>
+                <textarea name="" id="" cols="30" rows="10" class="textatea" placeholder="Descripcion"></textarea><br><br>
+                <label for="f">Foto</label>
+                <input type="file"><br><br>
+                <input type="checkbox" name="a" id="a1">Agregar contador de visitas<br>
+            </fieldset>
+            <fieldset>
+                <legend>Datos economicos</legend>
+                <label for="">Precio</label>
+                <input type="text">$
+                <label for="">Impuesto</label>
+                <select name="dpto" id="dpto" class="cajita">
+                    <option value="a">Escoja % de impuesto</option>
+                    <option value="1">4 %</option>
+                    <option value="2">7 %</option>
+                    <option value="3">16 %</option>
+                    <option value="4">25 %</option>
+                </select><br><br>
+                <label for="a">Promocion</label><br>
+                <input type="radio" name="sexo" >Ninguno<br>
+                <input type="radio" name="sexo" >Trnsporte<br>
+                <input type="radio" name="sexo" >Descuento 5 %<br>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>

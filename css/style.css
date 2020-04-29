@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(138, 241, 164);
+}
+.conta{
+    width: 0 auto;
+    width: 400px;
+}
+.cajita{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.textatea{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
